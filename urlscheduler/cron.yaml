@@ -1,0 +1,5 @@
+cron:
+- description: load the urls to call every 1 minute
+  url: /load_urls
+  schedule: every 1 minutes
+  

@@ -1,0 +1,13 @@
+application: urlscheduler
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+
+handlers:
+- url: /load_urls
+  script: urlscheduler.load_urls
+  
+- url: /add_call
+  script: urlscheduler.add_call
